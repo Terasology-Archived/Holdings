@@ -1,0 +1,18 @@
+{
+    "id" : "Holdings",
+    "version" : "0.1.0",
+    "author" : "Cervator, Stuthulhu",
+    "displayName" : "Holdings",
+    "description" : "Introduces the concept of a 'holding' - a grouped amount of property and/or creatures",
+    "dependencies" : [
+            {
+                "id" : "Spawning",
+                "minVersion" : "0.1.0"
+            },
+            {
+                "id" : "Oreons",
+                "minVersion" : "0.1.0"
+            }
+    ],
+    "isServerSideOnly" : false
+}
