@@ -19,6 +19,7 @@ import com.google.common.collect.HashMultimap;
 import com.google.common.collect.SetMultimap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.terasology.entitySystem.systems.BaseComponentSystem;
 import org.terasology.entitySystem.systems.UpdateSubscriberSystem;
 import org.terasology.entitySystem.entity.EntityManager;
 import org.terasology.entitySystem.entity.EntityRef;
@@ -40,7 +41,7 @@ import java.util.Set;
  * @author Rasmus 'Cervator' Praestholm <cervator@gmail.com>
  */
 @RegisterSystem(RegisterMode.AUTHORITY)
-public class HoldingSystem implements UpdateSubscriberSystem {
+public class HoldingSystem extends BaseComponentSystem implements UpdateSubscriberSystem {
 
     private static final Logger logger = LoggerFactory.getLogger(HoldingSystem.class);
 
